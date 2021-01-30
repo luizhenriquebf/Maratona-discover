@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap" rel="stylesheet">
-    <script src="./script.js"></script>
+    
   </head>
   <body>
     <header>
@@ -22,21 +22,21 @@
             <img src="./assets/income.svg" alt="Income image">
 
           </h3>
-          <p>R$ 5.000,00</p>
+          <p id="incomeDisplay">R$ 5.000,00</p>
         </div>
         <div class="card">
           <h3>
             <span>Saída</span>
             <img src="./assets/expense.svg" alt="Expense image">
           </h3>
-          <p>R$ 2.000,00</p>
+          <p id="expenseDisplay">R$ 2.000,00</p>
         </div>
         <div class="card total">
           <h3>
             <span>Total</span>
             <img src="./assets/total.svg" alt="Total image">
           </h3>
-          <p>R$ 3.000,00</p>
+          <p id="totalDisplay">R$ 3.000,00</p>
         </div>
       </section>
       <section id="transaction">
@@ -52,24 +52,6 @@
             </tr>
           </thead>
           <tbody>
-            <tr>
-              <td class="description">Aluguel</td>
-              <td class="expense">R$ -1.000,00</td>
-              <td class="date">05/01/2021</td>
-              <td><img src="./assets/minus.svg" alt="minus"></td>
-            </tr>
-            <tr>
-              <td class="description">Salário</td>
-              <td class="income">R$ 5.000,00</td>
-              <td class="date">19/01/2021</td>
-              <td><img src="./assets/minus.svg" alt="minus"></td>
-            </tr>
-            <tr>
-              <td class="description">Equipamento p/ setup</td>
-              <td class="expense">R$ -1.000,00</td>
-              <td class="date">26/01/2021</td>
-              <td><img src="./assets/minus.svg" alt="minus"></td>
-            </tr>
           </tbody>
         </table>
       </section>
@@ -110,5 +92,6 @@
       </div>
     </div>
     <footer class="container">dev.finance$</footer>
+    <script src="./script.js"></script>
   </body>
 </html>
